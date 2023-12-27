@@ -82,6 +82,8 @@ h2{
 }
 
 .cards{
+    border-style: solid;
+    border-radius: 0.5px;
     width: 300px;
     height: 400px;
     background-position: 50% 50%;
@@ -144,10 +146,14 @@ button:hover{
 
 #back-button {
     visibility: hidden;
+    width: 100px;
+    height: 35px;
 }
 
 #next-button {
     visibility: hidden;
+    width: 100px;
+    height: 35px;
 }
 
 footer{

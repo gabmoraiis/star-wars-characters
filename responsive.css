@@ -1,0 +1,57 @@
+@media (max-width: 425px) {
+    .logo{
+        width: 200px;
+    }
+    .logo-img{
+        width: 35%;
+    }
+
+    .logo-text{
+        font-size: 10px;
+    }
+    .social-media{
+        justify-content: disabled;
+        column-gap: 10px;
+    }
+    h2{
+        font-size: 9.1px
+    }
+    .main-content{
+        row-gap: 30px;
+    }
+    .cards{
+        width: 250px;
+        height: 300px;
+    }
+    .modal-content{
+        width: 75vw;
+        height: 80vh;
+        row-gap: 25px;
+    }
+    .character-image{
+        height: 350px;
+        background-position: 50% 1%;
+    }
+    .character-info{
+        font-size: 13px;
+    }
+    .footer-logo{
+        font-size: 1rem;
+    }
+    #back-button {
+        width: 80px;
+        height: 30px;
+        margin: 25px 0 10px 0;
+    }
+    #next-button {
+        width: 80px;
+        height: 30px;
+        margin: 25px 0 10px 0;
+    }
+}
+
+@media (max-width: 769px){
+    h2{
+        font-size: 14px
+    }
+}

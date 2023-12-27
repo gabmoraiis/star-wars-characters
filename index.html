@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
     <link rel="shortcut icon" href="./assets/millennium-falcon.png" type="image/x-icon">
     <title> Star Wars - Personagens </title>
 
@@ -42,15 +43,15 @@
         
         <h2> Todos os personagens de Star Wars em apenas um site </h2>
 
-        <div class="buttons">
-            <button onclick ="loadPreviousPage()" id= "back-button"> Anterior </button>
-            <button onclick = "loadNextPage()" id= "next-button"> Próxima </button>
-        </div>
-
         <div class="main-content" id="main-content"> </div>
 
         <div class="modal" id="modal" onclick="hideModal()"> 
             <div class="modal-content" id="modal-content"> </div>
+        </div>
+
+        <div class="buttons">
+            <button onclick ="loadPreviousPage()" id= "back-button"> Anterior </button>
+            <button onclick = "loadNextPage()" id= "next-button"> Próxima </button>
         </div>
 
     </section>
