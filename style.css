@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url('universo-bg-gif.gif');
+    background-image: url('./assets/universo-bg-gif.gif');
     background-size: cover;
 }
 
